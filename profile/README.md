@@ -2,12 +2,10 @@
 
 <div align="center">
 
-<img src="./viebee-logo.png" alt="VieBee Project Logo" width="180" />
+<img src="./viebee-official-full.png" alt="VieBee Project Logo" width="180" />
 
+**Project Official Logo.**
 ### Discover Vietnam Beyond the Guidebooks, Hosted by the Neighbors Who Live It.
-
-**Preserving living heritage. Empowering local communities. Connecting cultures through technology.**
-
 </div>
 
 ---
