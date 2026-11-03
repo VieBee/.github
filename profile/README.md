@@ -43,11 +43,11 @@ This workspace is structured into specialized, decoupled micro-repositories:
 │                        VieBee System Topology                          │
 └────────────────────────────────────────────────────────────────────────┘
 
-  [ Client: Next.js 16 Web App (:3000) ]
+  [ Client: Next.js 16 Web App (:4000) ]
                   │
                   │ REST API + Bearer JWT
                   ▼
-  [ Main Backend Service: NestJS 11 (:4000) ]
+  [ Main Backend Service: NestJS 11 (:5000) ]
        ├── VB.VieBeeService.HttpApi
        │      REST Controllers, Guards, Interceptors
        ├── VB.VieBeeService.Application.Contracts
@@ -82,7 +82,7 @@ npm install
 npm run dev
 ```
 
-Accessible at [http://localhost:3000](http://localhost:3000).
+Accessible at [http://localhost:4000](http://localhost:4000).
 
 ### 2. Main Backend — NestJS
 
@@ -92,8 +92,8 @@ npm install
 npm run start:dev
 ```
 
-- API: [http://localhost:4000/api](http://localhost:4000/api)
-- Swagger documentation: [http://localhost:4000/api-docs](http://localhost:4000/api-docs)
+- API: [http://localhost:5000/api](http://localhost:5000/api)
+- Swagger documentation: [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
 
 ### 3. AI Copilot Service — Python FastAPI
 
